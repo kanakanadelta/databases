@@ -1,5 +1,6 @@
 var express = require('express');
 var db = require('./db');
+var Promise = require('bluebird');
 
 // Middleware
 var morgan = require('morgan');
